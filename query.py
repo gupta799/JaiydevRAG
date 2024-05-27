@@ -1,6 +1,6 @@
 import numpy as np
 from redis.commands.search.query import Query
-from Ragtest import client,embed_model
+from Indexer import client,embed_model
 query = (
     Query('(*)=>[KNN 3 @embedding_vector $query_vector AS vector_score]')
     .sort_by('vector_score')

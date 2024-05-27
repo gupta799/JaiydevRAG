@@ -1,6 +1,6 @@
 from redis.commands.search.field import TextField, VectorField
 from redis.commands.search.indexDefinition import IndexDefinition, IndexType
-from Ragtest import VECTOR_DIMENSION, client
+from Indexer import VECTOR_DIMENSION, client
 schema = (
     TextField("$.chunk", no_stem=True, as_name="chunk"),
     TextField("$.metaData.source", no_stem=True, as_name="source"),
