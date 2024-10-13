@@ -1,4 +1,4 @@
-#F astAPI Microservice with JWT and LlamaIndex Embeddings
+# FastAPI Microservice with JWT and LlamaIndex Embeddings
 
 ## Overview
 
